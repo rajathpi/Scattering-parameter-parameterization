@@ -10,6 +10,8 @@
 ![Antennas](fig/antennas.png)
 *Sixteen antennas were placed around the head model used in the simulations.*
 
+[Dataset](https://www.kaggle.com/datasets/rajathrpai/scattering-parameters)
+
 **Dataset Description:**
 - Scattering parameters (S-parameters) for antenna pairs.
 - 1000 pre-simulated healthy samples 
