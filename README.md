@@ -5,18 +5,18 @@
 
 **Research Focus:**
 - Inverse problem: given dataset $\rightarrow$ input parameters.
-- Simulated microwave transmission data originally used to detect intracranial bleeding after trauma or stroke \cite{Fhager}.
+- Simulated microwave transmission data originally used to detect intracranial bleeding after trauma or stroke 
 
 ![Antennas](fig/antennas.png)
 *Sixteen antennas were placed around the head model used in the simulations.*
 
 **Dataset Description:**
 - Scattering parameters (S-parameters) for antenna pairs.
-- 1000 pre-simulated healthy samples \cite{Fhager}.
+- 1000 pre-simulated healthy samples 
 - S-parameters from 16 antennas $\rightarrow$ 136 complex-valued curves.
 - Antennas 2, 6, 7, 11, and 14 are utilized as amplitude components.
 
-![S-parameters](fig/s-params.jpg)
+![S-parameters](fig/s-params.png)
 *S-parameter $S_{26}$ representing coupling between antennas 2 & 6 for three samples from the dataset.*
 
 **Input Parameters:**
@@ -26,14 +26,14 @@
 ## Method
 
 **Three Models Employed:**
-1. Basic Feedforward Neural Network \cite[p. 163-166]{Goodfellow}.
-2. RNN incorporating a Long Short-Term Memory (LSTM) \cite[p. 397-400]{Goodfellow}.
-3. RNN incorporating a Gated Recurrent Unit (GRU) \cite[p. 400-401]{Goodfellow}.
+1. Basic Feedforward Neural Network 
+2. RNN incorporating a Long Short-Term Memory (LSTM) 
+3. RNN incorporating a Gated Recurrent Unit (GRU) 
 
 **Shared Network Settings:**
 - Data split: 80% training & 20% validation.
-- Optimizer: Adam \cite[p. 301-302]{Goodfellow}.
-- Loss function: mean squared error (MSE) \cite[p. 105-106]{Goodfellow}.
+- Optimizer: Adam 
+- Loss function: mean squared error (MSE) 
 - Epochs: 10.
 - Batch size: 32.
 
