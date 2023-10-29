@@ -17,6 +17,7 @@
 - Antennas 2, 6, 7, 11, and 14 are utilized as amplitude components.
 
 ![S-parameters](fig/s-params.png)
+
 *S-parameter $S_{26}$ representing coupling between antennas 2 & 6 for three samples from the dataset.*
 
 **Input Parameters:**
